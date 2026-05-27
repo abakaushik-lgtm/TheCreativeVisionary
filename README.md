@@ -24,6 +24,25 @@ A premium, interactive single-page corporate portal and branding system designed
 
 ---
 
+## 📁 Repository Folder Structure
+
+```directory
+TheCreativeVisionary/
+├── assets/                          # Generated brand assets & mockup screenshots
+│   ├── antigravity_dashboard.png    # Interactive console telemetry mockup
+│   ├── antigravity_logo.png         # Minimal gravity-defying startup logo
+│   ├── corporate_icons.png          # UI glassmorphic icon collage
+│   ├── executive_strategist.png     # Consistent executive character portrait
+│   ├── hero_hq.png                  # HQ skyscrapers background banner
+│   └── social_banner.png            # Premium landscape layout banner
+├── index.html                       # Semantic HTML5 scaffolding
+├── script.js                        # Synthesizer, Canvas scanner, CLI & 3D tilt engine
+├── styles.css                       # Color design systems, volumetric glows & keyframe rules
+└── README.md                        # Documentation & setup guides
+```
+
+---
+
 ## 🚀 Features
 
 The landing page functions as an active corporate command portal:
