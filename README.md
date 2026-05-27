@@ -61,6 +61,10 @@ A minimal, gravity-defying geometric startup symbol with vibrant gradients on a 
 Cinematic night skyline of the AntiGravity headquarters featuring skyscraper glass facades and rain reflections.
 ![AntiGravity HeroHQ](assets/hero_hq.png)
 
+### Interactive Dashboard / UI Mockup
+An ultra-realistic, high-tech command interface showcasing neon blue and purple telemetry visualization charts and glassmorphic panels.
+![AntiGravity Dashboard](assets/antigravity_dashboard.png)
+
 ### Corporate Strategist
 Silver cybernetic facial features integrated with a black suit and blue glowing circuits.
 ![Corporate Strategist](assets/executive_strategist.png)
