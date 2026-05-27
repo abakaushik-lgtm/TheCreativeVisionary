@@ -142,3 +142,9 @@ Since this portal is built entirely using vanilla, client-side technologies, it 
      npx serve .
      ```
 4. Click the **"ATMOSPHERE: OFF"** button in the header navigation bar to initialize the audio synthesizer drone!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
