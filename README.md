@@ -2,6 +2,8 @@
 
 ![Generative AI](https://img.shields.io/badge/generative--ai-blue?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/prompt--engineering-purple?style=flat-square) ![Cyberpunk](https://img.shields.io/badge/cyberpunk-cyan?style=flat-square) ![AI Design](https://img.shields.io/badge/ai--design-magenta?style=flat-square) ![Stable Diffusion](https://img.shields.io/badge/stable--diffusion-purple?style=flat-square) ![DALL-E](https://img.shields.io/badge/dall--e-blue?style=flat-square) ![Midjourney](https://img.shields.io/badge/midjourney-cyan?style=flat-square)
 
+🌐 **Live Portal Demo**: [abakaushik-lgtm.github.io/TheCreativeVisionary](https://abakaushik-lgtm.github.io/TheCreativeVisionary/)
+
 A premium, interactive single-page corporate portal and branding system designed for **AntiGravity**—a high-tech cognitive startup. The system combines a sleek corporate identity with an immersive cyberpunk aesthetic, complete with dark glassmorphic panels, neon blue and purple volumetric lighting, holographic animations, and interactive interfaces.
 
 ---
