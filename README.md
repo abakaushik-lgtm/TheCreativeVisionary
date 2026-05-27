@@ -113,6 +113,16 @@ Landscape header showing sleek interface overlays.
 
 ---
 
+## 🔮 Future Improvements & Roadmap
+
+To elevate the AntiGravity branding intelligence portal further, the following development pipelines are scheduled:
+1. **AI Video Generation**: Integrate advanced text-to-video models (such as Sora, Runway, or custom Luma systems) to produce volumetric corporate HQ flythroughs and cinematic strategist presentations.
+2. **Interactive Branding Dashboard**: Develop an active web UI controller permitting users to dynamically prompt, tweak, and recompile custom branding guidelines, color lattices, and image vectors inside the browser.
+3. **Multi-Style Generation Modes**: Expand visual engine presets to permit real-time visual style switching between cyberpunk, brutalist corporate, vaporwave, solar-punk, and sleek retro-futurism.
+4. **Decentralized Telemetry Lattices**: Connect terminal console diagnostics to peer-to-peer WebRTC connections, enabling instant decentralized dashboard telemetry synchronization between nodes.
+
+---
+
 ## 💻 How to Run Locally
 
 Since this portal is built entirely using vanilla, client-side technologies, it requires **zero installation steps** or dependency managers!
