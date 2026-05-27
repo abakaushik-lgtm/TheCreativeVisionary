@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiGravity — Cyberpunk Corporate AI & Gravity-Defying Tech</title>
+    <!-- Google Fonts for premium tech typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;600;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Meta tags for premium SEO -->
+    <meta name="description" content="AntiGravity Startup — Futuristic corporatemeets neon cyberpunk. Unlocking quantum AI command systems, serverless cloud lattices, and gravity-defying cybernetic tech.">
+    <meta property="og:title" content="AntiGravity — Cyberpunk Corporate AI & Gravity-Defying Tech">
+    <meta property="og:description" content="Explore AntiGravity's premium corporate technology atmosphere. Interact with floating holographic interfaces and live AI quantum command consoles.">
+    <meta property="og:image" content="assets/social_banner.png">
+</head>
+<body class="cyberpunk-theme">
+    <!-- Grid particle overlay background -->
+    <div class="cyber-grid-overlay"></div>
+    <div class="glow-orb orb-blue"></div>
+    <div class="glow-orb orb-purple"></div>
+
+    <!-- Header Navigation -->
+    <header class="cyber-header" id="header">
+        <div class="header-logo">
+            <img src="assets/antigravity_logo.png" alt="AntiGravity Logo" class="logo-image" id="logo-img">
+            <span class="logo-text">ANTIGRAVITY</span>
+        </div>
+        <nav class="cyber-nav">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#command-center" class="nav-link">Command Center</a>
+            <a href="#capabilities" class="nav-link">Capabilities</a>
+            <a href="#brand" class="nav-link">Brand Book</a>
+        </nav>
+        <div class="header-actions">
+            <button class="btn-atmos" id="atmos-toggle" aria-label="Toggle Cyber Soundscape">
+                <span class="atmos-icon">🔊</span>
+                <span class="atmos-label">ATMOSPHERE: OFF</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(10, 10, 15, 0.95)), url('assets/hero_hq.png');">
+            <div class="hero-content">
+                <div class="badge-hologram">SYSTEM ACTIVE // LEVEL 01</div>
+                <h1 class="hero-title">
+                    Defy Gravity.<br>
+                    <span class="gradient-text">Define the Future.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The premium corporate strategist. AntiGravity bridges quantum computing lattices, secure ledger protocols, and cybernetic AI intelligence to elevate human-corporate operations to absolute cinematic performance.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#command-center" class="btn-cyber btn-primary">
+                        <span class="btn-glitch">INITIATE SYSTEM</span>
+                    </a>
+                    <a href="#brand" class="btn-cyber btn-secondary">
+                        <span>EXPLORE BRAND</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-interactive-scroll">
+                <span class="mouse-scroll"></span>
+                <span class="scroll-text">SYSTEM LINKING</span>
+            </div>
+        </section>
+
+        <!-- Command Center & Interactive Analytics Section -->
+        <section class="command-section" id="command-center">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-number">01 //</span> AI COMMAND CENTER</h2>
+                <p class="section-subtitle">Interact with our live telemetry portal and direct high-level strategic commands to the AntiGravity core system.</p>
+            </div>
+
+            <div class="command-grid">
+                <!-- Left Column: Biometric Strategy Feed & Team -->
+                <div class="cyber-card glass-panel flex-column tilt-card" id="strategist-feed">
+                    <div class="card-header border-cyan">
+                        <span class="card-status active">LIVE FEED</span>
+                        <h3>CORPORATE STRATEGIST</h3>
+                        <span class="card-code">SYS.ST.07</span>
+                    </div>
+                    <div class="biometric-container">
+                        <canvas id="biometric-scanner" class="scanner-overlay"></canvas>
+                        <img src="assets/executive_strategist.png" alt="AntiGravity Executive Strategist" class="strategist-img">
+                    </div>
+                    <div class="biometric-details">
+                        <div class="detail-row">
+                            <span class="detail-label">IDENTIFIER:</span>
+                            <span class="detail-val">STRATEGIST_01</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">CYBERNETICS:</span>
+                            <span class="detail-val text-neon-blue">SILVER-NEON LATTICE V4.2</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">STATUS:</span>
+                            <span class="detail-val text-neon-purple font-mono">OPTIMIZING PORTFOLIO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle/Right Column: Live Terminal and Diagnostics -->
+                <div class="cyber-card glass-panel flex-column border-purple large-widget">
+                    <div class="card-header border-purple">
+                        <span class="card-status status-quantum">QUANTUM CORE</span>
+                        <h3>COGNITIVE COMMAND CONSOLE</h3>
+                        <span class="card-code">CORE_SYS_CMD</span>
+                    </div>
+                    
+                    <div class="telemetry-stats">
+                        <div class="telemetry-bar-widget">
+                            <div class="bar-header">
+                                <span>COGNITIVE ALIGNMENT</span>
+                                <span id="val-cognitive">98.2%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill border-cyan fill-cyan" style="width: 98.2%;" id="bar-cognitive"></div>
+                            </div>
+                        </div>
+                        <div class="telemetry-bar-widget">
+                            <div class="bar-header">
+                                <span>QUANTUM LATTICE DENSITY</span>
+                                <span id="val-density">45.7 GFLOPS</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill border-purple fill-purple" style="width: 45.7%;" id="bar-density"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cyber Terminal Interface -->
+                    <div class="cyber-terminal">
+                        <div class="terminal-bar">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">ANTIGRAVITY TERMINAL — v3.5.7</span>
+                        </div>
+                        <div class="terminal-body" id="terminal-screen">
+                            <p class="terminal-welcome">[SYSTEM ONLINE] Welcome to AntiGravity High-Sec Command Line.</p>
+                            <p class="terminal-welcome">Type <span class="text-neon-blue">/help</span> for available cognitive directives, or click interactive metrics below.</p>
+                            <div id="terminal-history"></div>
+                            <div class="terminal-input-line">
+                                <span class="terminal-prompt">&gt;_</span>
+                                <input type="text" id="terminal-cmd" placeholder="Enter cybernetic directive..." autofocus autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terminal-shortcuts">
+                        <button class="btn-shortcut" data-cmd="/diagnose">/diagnose</button>
+                        <button class="btn-shortcut" data-cmd="/optimize">/optimize</button>
+                        <button class="btn-shortcut" data-cmd="/visualize">/visualize</button>
+                        <button class="btn-shortcut" data-cmd="/core">/core</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities/Features Grid -->
+        <section class="capabilities-section" id="capabilities">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-number">02 //</span> CORE SYSTEM MODULES</h2>
+                <p class="section-subtitle">Powered by luxury cyberpunk engineering. Explore the building blocks of gravity-defying enterprise logic.</p>
+            </div>
+
+            <div class="capabilities-grid">
+                <!-- AI Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-ai">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back purple"></div>
+                        <span class="service-emoji">🤖</span>
+                    </div>
+                    <h3>Cognitive AI</h3>
+                    <p>Neural circuits operating on silver-neon cybernetic pipelines. Automated high-level reasoning and self-healing executive operations.</p>
+                    <div class="service-metric">EFFICIENCY: +340%</div>
+                </div>
+
+                <!-- Cloud Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-cloud">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back blue"></div>
+                        <span class="service-emoji">☁️</span>
+                    </div>
+                    <h3>Cloud Lattice</h3>
+                    <p>A globally distributed serverless cloud grid defying regional latencies. Instant, high-bandwidth telemetry replication.</p>
+                    <div class="service-metric">LATENCY: &lt;0.8ms</div>
+                </div>
+
+                <!-- Security Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-security">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back purple"></div>
+                        <span class="service-emoji">🛡️</span>
+                    </div>
+                    <h3>Quantum Shield</h3>
+                    <p>Holographic cryptographic arrays keeping system layers impenetrable. Zero-trust security for cinematic data security.</p>
+                    <div class="service-metric">ENCRYPTION: SHIELD-5</div>
+                </div>
+
+                <!-- Analytics Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-analytics">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back blue"></div>
+                        <span class="service-emoji">📈</span>
+                    </div>
+                    <h3>Holistic Analytics</h3>
+                    <p>Interactive vector data visualization, scanning, and predictive trends. High-fidelity dashboards rendered in real-time space.</p>
+                    <div class="service-metric">DATAPOINTS: 80B/sec</div>
+                </div>
+
+                <!-- Automation Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-automation">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back purple"></div>
+                        <span class="service-emoji">⚡</span>
+                    </div>
+                    <h3>Hyper Automation</h3>
+                    <p>Seamless execution loops across multiple software layer pipelines, eliminating manual oversight with robotic coordination.</p>
+                    <div class="service-metric">AUTONOMY: LEVEL-9</div>
+                </div>
+
+                <!-- Blockchain Module -->
+                <div class="cyber-card glass-panel service-card tilt-card" id="module-blockchain">
+                    <div class="service-icon-wrapper">
+                        <div class="service-glow-back blue"></div>
+                        <span class="service-emoji">⛓️</span>
+                    </div>
+                    <h3>Decentralized Ledger</h3>
+                    <p>Tamper-proof blockchain matrices ensuring trust and consensus across distributed intelligence terminals.</p>
+                    <div class="service-metric">TRUST FACTOR: 100%</div>
+                </div>
+            </div>
+            
+            <div class="icon-collage-bar">
+                <p>ASSETS DESIGNED BY ANTIGRAVITY BRANDING ENGINE — CUSTOM UI ICON LATTICE</p>
+                <div class="collage-wrapper">
+                    <img src="assets/corporate_icons.png" alt="AntiGravity UI Icons" class="collage-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Specifications Section -->
+        <section class="brand-section" id="brand">
+            <div class="section-header">
+                <h2 class="section-title"><span class="neon-number">03 //</span> BRAND SPECIFICATIONS</h2>
+                <p class="section-subtitle">The cinematic parameters governing the AntiGravity aesthetic. Futuristic corporate meets neon cyberpunk.</p>
+            </div>
+
+            <div class="brand-showcase">
+                <div class="banner-container glass-panel">
+                    <div class="card-header border-cyan">
+                        <span class="card-status active">SOCIAL MEDIA BANNER</span>
+                        <h3>BRAND SYSTEM IN ACTION</h3>
+                        <span class="card-code">AG.SPEC.10</span>
+                    </div>
+                    <img src="assets/social_banner.png" alt="AntiGravity Social Banner" class="banner-img">
+                </div>
+
+                <div class="brand-details-grid">
+                    <div class="cyber-card glass-panel">
+                        <h4>CORE PALETTE</h4>
+                        <div class="colors-flex">
+                            <div class="color-swatch" style="--swatch-color: #00f0ff;">
+                                <div class="swatch-box"></div>
+                                <span class="swatch-label">Electric Blue</span>
+                                <span class="swatch-hex">#00f0ff</span>
+                            </div>
+                            <div class="color-swatch" style="--swatch-color: #bd00ff;">
+                                <div class="swatch-box"></div>
+                                <span class="swatch-label">Neon Purple</span>
+                                <span class="swatch-hex">#bd00ff</span>
+                            </div>
+                            <div class="color-swatch" style="--swatch-color: #e2e8f0;">
+                                <div class="swatch-box"></div>
+                                <span class="swatch-label">Chrome Silver</span>
+                                <span class="swatch-hex">#e2e8f0</span>
+                            </div>
+                            <div class="color-swatch" style="--swatch-color: #030712;">
+                                <div class="swatch-box"></div>
+                                <span class="swatch-label">Black Glass</span>
+                                <span class="swatch-hex">#030712</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cyber-card glass-panel flex-column">
+                        <h4>TYPOGRAPHY CODE</h4>
+                        <div class="typo-element">
+                            <span class="typo-tag">H1 / H2 Headers</span>
+                            <span class="typo-font" style="font-family: 'Orbitron', sans-serif; font-weight: 800;">Orbitron / Black 900</span>
+                        </div>
+                        <div class="typo-element">
+                            <span class="typo-tag">Body Content</span>
+                            <span class="typo-font" style="font-family: 'Inter', sans-serif;">Inter / Light & Regular</span>
+                        </div>
+                        <div class="typo-element">
+                            <span class="typo-tag">Terminal & Logs</span>
+                            <span class="typo-font" style="font-family: 'Share Tech Mono', monospace; color: #00f0ff;">Share Tech Mono / 400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="cyber-footer">
+        <div class="footer-grid">
+            <div class="footer-branding">
+                <div class="footer-logo">
+                    <img src="assets/antigravity_logo.png" alt="AntiGravity Logo" class="footer-logo-img">
+                    <span>ANTIGRAVITY</span>
+                </div>
+                <p>The Premium Cyberpunk Corporate Intelligence Platform. We control the data vectors; we defy the limits.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h5>SYSTEM DIRECTIVES</h5>
+                    <ul>
+                        <li><a href="#hero">Initiate Link</a></li>
+                        <li><a href="#command-center">Command Telemetry</a></li>
+                        <li><a href="#capabilities">Modules</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>AUTHENTICATION</h5>
+                    <ul>
+                        <li><a href="#" onclick="event.preventDefault(); alert('High-security bypass requested. System encrypted.');">Admin Bypass</a></li>
+                        <li><a href="#" onclick="event.preventDefault(); alert('Telemetry syncing directly to local server.');">Node Sync</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>SECURE LINK: ACTIVE [SSLv4]</span>
+            <span>&copy; 2026 ANTIGRAVITY TECHNOLOGY CORP. ALL GRAVITY SHIELDED.</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
